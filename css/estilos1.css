@@ -1,27 +1,51 @@
 h1{
-	text-transform: uppercase;
-	font-style: italic;
-	font-weight: 900;
-	font-family: fantasy,monospace;
-	letter-spacing:20px;
-		line-height:60px;
-		vertical-align: center;
-		text-align: right;
-		text-decoration: line-through;
+	text-transform: uppercase; /* transforma o texto eem maisulas */
+	font-style: italic; /* mete um italico */
+	font-weight: 900; /* espessura final vai de 100 a 900 */
+	font-family: fantasy,monospace; /* mtipo de letra */
+	letter-spacing:20px; /* espaçamento entre letras */
+		line-height:60px; /* altura da linha*/
+		vertical-align: center; /* mtipo de letra */
+		text-align: right; /* malinhamento do texto á direita */
+		text-decoration: line-through; /* risco por cima do texto razurado, outros valores;nome*/
 
 }
 
 div.caixa{
-	border:1px dashed red;
+	border:1px dashed red; /* rebordo tracejado 1px vermelho*/
 	width: 50%;
 	margin:50px 30px 100px 120px ;
-	padding:30px;
+	padding:30px; /*margem "interna" de 30px em cima direita baixo e esquerda*/
 	float: left;
+	position:relative;
 }
 
 body div.logo{
 	width:30px;
 	float: right;
+	clear:left;
 
 
 	}
+
+.bt{
+	position: absolute;
+	right:5px;
+	top:20px;
+	width:10px;
+	height: 10px;
+	background-color: red;
+}
+
+.btright{
+	right:5px;
+	
+}
+
+.btleft{
+	right:5px;
+	
+}
+
+
+
